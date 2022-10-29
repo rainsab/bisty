@@ -14,11 +14,11 @@ export default function App() {
   })        
   
   return (
-      <div>
+      <>
           <Head />
           <section className="cards-list">
               {cards}
           </section>
-      </div>
+      </>
   )
 }
