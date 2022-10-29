@@ -3,12 +3,15 @@ import React from "react"
 export default function Card(props) {
     return (
         <div className="card">
-            <div className="card-title">
-                <h2>{props.band}</h2>
-                <a href={props.bandcamp}>bandcamp</a>
-            </div>
+            <img src={`../images/${props.img}`} alt="" />
             <div className="card-info">
-                
+                <h2>{props.band}</h2>
+                <p>{props.genre}</p>
+                <a href={props.bandcamp}>bandcamp</a>
+                <p>{props.img}</p>
+            </div>
+            <div className="card-live">
+                <p>{props.date} at {props.location}</p>
             </div>
         </div>
     )

@@ -6,7 +6,7 @@ export default [
         genre: "black metal",
         date: "28th of May",
         location: "Klub 007 Strahov",
-        img: ""
+        img: "lamp-of-murmuur.png"
     },
     {
         id: 2,
@@ -15,6 +15,7 @@ export default [
         genre: "black metal / crust",
         date: "28th of May",
         location: "Klub 007 Strahov",
+        img: "dodsrit.jpg"
     },
     {
         id: 3,
@@ -23,6 +24,7 @@ export default [
         genre: "death metal/ hardcore",
         date: "24th of June",
         location: "Underdogs Prague",
+        img: "gatecreeper.jpg"
     },
     {
         id: 4,
@@ -31,6 +33,7 @@ export default [
         genre: "punk / hardcore",
         date: "24th of June",
         location: "Underdogs Prague",
+        img: "vole.jpg"
     },
     {
         id: 5,
@@ -39,6 +42,7 @@ export default [
         genre: "black metal",
         date: "29th of July",
         location: "Fluff Fest 2022",
+        img: "dawn-rayd.jpg"
     },
     {
         id: 6,
@@ -47,6 +51,7 @@ export default [
         genre: "post-punk",
         date: "29th of July",
         location: "Fluff Fest 2022",
+        img: "autor.jpg"
     },
     {
         id: 7,
@@ -55,6 +60,7 @@ export default [
         genre: "black metal / hardcore",
         date: "29th of July",
         location: "Fluff Fest 2022",
+        img: "portrayal-of-guilt.jpg"
     },
     {
         id: 8,
@@ -63,5 +69,6 @@ export default [
         genre: "punk / rock",
         date: "29th of July",
         location: "Fluff Fest 2022",
+        img: "iceage.jpg"
     }
 ]
