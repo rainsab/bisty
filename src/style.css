@@ -17,13 +17,22 @@ body {
 }
 
 .cards-list {
-    margin-inline: 20rem;
+    max-width: 1564px;
+    margin: auto;
+    display: flex;
+    flex-flow: wrap;
+    gap: 2rem;
 }
 
 .card {
     display: flex;
+    flex-flow: column;
     margin-bottom: 3rem;
-    gap: 1rem;
+}
+
+.card-img {
+    max-width: 500px;
+    height: 100%;
 }
 
 h2 {
