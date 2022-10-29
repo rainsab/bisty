@@ -1,10 +1,24 @@
 import React from 'react'
-import ReactDOM from 'react-dom/client'
+import Head from './components/head'
+import Card from './components/card'
 import data from "./data"
-import './style.css'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <>
+export default function App() {
+  const cards = data.map(item => {
+      return (
+          <Card
+              key={item.id}
+              {...item}
+          />
+      )
+  })        
   
-  </>
-)
+  return (
+      <div>
+          <Head />
+          <section className="cards-list">
+              {cards}
+          </section>
+      </div>
+  )
+}
