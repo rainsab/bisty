@@ -8,7 +8,6 @@ export default function Card(props) {
                 <h2>{props.band}</h2>
                 <p>{props.genre}</p>
                 <a href={props.bandcamp}>bandcamp</a>
-                <p>{props.img}</p>
             </div>
             <div className="card-live">
                 <p>{props.date} at {props.location}</p>
